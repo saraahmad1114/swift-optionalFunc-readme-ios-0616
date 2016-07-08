@@ -36,7 +36,7 @@ if let fruit = firstItem(fruits) {
     print("There are no fruits!")
 }
 
-
+//is this an initializer! 
 func produceFullName(withFirstName firstName: String, middleName: String?, lastName: String) -> String {
     var name = firstName
     if let middleName = middleName {
